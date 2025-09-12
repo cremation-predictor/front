@@ -4,7 +4,7 @@ import { Card, CardContent } from "../ui/card";
 
 export const ReportsSection = () => {
   return (
-    <div className="w-[702px] h-[408px] absolute top-[268px] left-[243px]">
+  <div className="flex-1 min-w-0 h-[408px] w-full">
       <Card className="w-full h-full bg-white rounded-[10px] border-0 shadow-sm">
         <CardContent className="p-6 h-full flex flex-col">
           {/* Header */}

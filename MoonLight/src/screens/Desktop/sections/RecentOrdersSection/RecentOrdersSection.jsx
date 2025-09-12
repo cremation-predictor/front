@@ -64,7 +64,7 @@ export const RecentOrdersSection = () => {
   ];
 
   return (
-    <section className="w-[702px] h-[335px] absolute top-[663px] left-[243px] translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
+  <section className="flex-1 min-w-0 h-[335px] w-full">
       <Card className="w-full bg-white rounded-[10px] border-0 shadow-sm">
         <CardContent className="p-0">
           <div className="flex items-center justify-between p-6 pb-4">

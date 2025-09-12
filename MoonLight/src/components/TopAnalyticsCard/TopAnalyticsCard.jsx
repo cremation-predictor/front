@@ -3,7 +3,7 @@ import { Card, CardContent } from "../ui/card";
 
 export const TopAnalyticsCard = () => {
   return (
-    <div className="w-[1162px] h-[116px] absolute top-[122px] left-[243px]">
+  <div className="w-full h-[116px] mb-2">
       <Card className="w-full h-full bg-white rounded-[10px] border-0 shadow-sm">
         <CardContent className="p-6 h-full flex items-center justify-between">
           <div className="flex items-center gap-8">

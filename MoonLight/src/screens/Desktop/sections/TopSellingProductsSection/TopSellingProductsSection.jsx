@@ -23,7 +23,7 @@ export const TopSellingProductsSection = () => {
   ];
 
   return (
-    <div className="w-[430px] h-[335px] absolute top-[663px] left-[978px] translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
+  <div className="flex-1 min-w-0 h-[335px] w-full">
       <Card className="bg-white rounded-[10px] border-0 shadow-sm">
         <CardContent className="p-6 relative">
           <div className="flex items-center justify-between mb-6">

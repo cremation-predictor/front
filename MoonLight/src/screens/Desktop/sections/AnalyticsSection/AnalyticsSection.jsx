@@ -19,7 +19,7 @@ export const AnalyticsSection = () => {
   ];
 
   return (
-    <div className="w-[430px] h-[408px] absolute top-[270px] left-[978px] translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
+  <div className="flex-1 min-w-0 h-[408px] w-full">
       <Card className="relative w-full bg-white rounded-[10px] shadow-sm">
         <CardContent className="p-6">
           {/* Header */}
