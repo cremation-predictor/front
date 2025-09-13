@@ -1,4 +1,13 @@
-/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body { overflow-x: hidden; }
+/* 폰트 패밀리 (Figma 기본: Inter/Roboto 계열 참고) */
+body { font-feature-settings: 'ss01' on, 'liga' on; }
+
+img, canvas, svg, video { max-width: 100%; height: auto; display: block; }
+
+
+/* 유틸리티: 내부에서 가로 스크롤 허용할 때 사용할 래퍼 */
+.container-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
