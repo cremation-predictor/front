@@ -35,7 +35,6 @@ src/
 npm install
 2. 개발 서버 실행
 npm run dev
-→ 기본 주소: http://localhost:5173
 
 3. 빌드
 npm run build
